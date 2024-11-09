@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty and Skincare Essentials store</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header bg-light">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between align-items-center">
+        <!-- Logo -->
+        <a href="#" class="navbar-brand">
+          <img src="Green Tea & Aloe Facial Cleanser.jpg" alt="Olivier Online Shop Logo" class="logo">
+        </a>
+
+        <!-- Toggle Button for Small Screens -->
+        <button class="navbar-toggler" type="button" onclick="toggleSidebar()">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Main Navigation Links (hidden on small screens) -->
+        <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about us.html" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="shop.html" class="nav-link">Shop</a></li>
+            <li class="nav-item"><a href="contact us.html" class="nav-link">Contact</a></li>
+          </ul>
+          <div class="navbar-buttons">
+            <a href="login-sign in.html" class="btn btn-outline-primary mr-2">Login</a>
+            <a href="login-sign in.html" class="btn btn-primary">Sign Up</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sidebar Menu for Small Screens -->
+  <div id="sidebarMenu" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="toggleSidebar()">×</a>
+    <a href="index.html">Home</a>
+    <a href="about us.html">About Us</a>
+    <a href="shop.html">Shop</a>
+    <a href="contact us.html">Contact</a>
+    <a href="login-sign in.html" class="btn btn-outline-primary d-block mt-3">Login</a>
+    <a href="login-sign in.html" class="btn btn-primary d-block mt-2">Sign Up</a>
+  </div>
+
+  <!-- JavaScript for Sidebar Toggle -->
+  <script>
+    function toggleSidebar() {
+      const sidebar = document.getElementById("sidebarMenu");
+      sidebar.style.width = sidebar.style.width === "250px" ? "0" : "250px";
+    }
+  </script>
+
+  <!-- Bootstrap and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+
+
+  <section class="custom-featured-products">
+    <div class="custom-container">
+      <h2 class="custom-section-title">Products  to Shop</h2>
+      <div class="custom-product-card-container">
+        
+        <!-- Product 1 -->
+        <div class="custom-product-card">
+          <div class="custom-product-card-inner">
+            <div class="custom-product-card-front">
+              <img src="natural v c.jpg" alt="Natural Vitamin C Serum" class="custom-product-image">
+              <h5 class="custom-product-title">Natural Vitamin C Serum</h5>
+              <p class="custom-product-price">$29.99</p>
+              <p class="custom-product-description">Brighten & Revitalize your skin with Vitamin C.</p>
+            </div>
+            <div class="custom-product-card-back">
+              <h5>Product Features:</h5>
+              <ul class="custom-product-features">
+                <li>Reduces dark spots</li>
+                <li>Boosts collagen production</li>
+                <li>Improves skin texture</li>
+                <li>100% natural ingredients</li>
+              </ul>
+              <p>This serum is perfect for a bright, youthful glow.</p>
+              <button class="custom-product-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="custom-product-card">
+          <div class="custom-product-card-inner">
+            <div class="custom-product-card-front">
+              <img src="Lavender Night Cream.jpg" alt="Lavender Night Cream" class="custom-product-image">
+              <h5 class="custom-product-title">Lavender Night Cream</h5>
+              <p class="custom-product-price">$39.99</p>
+              <p class="custom-product-description">Calm and hydrate your skin overnight.</p>
+            </div>
+            <div class="custom-product-card-back">
+              <h5>Product Features:</h5>
+              <ul class="custom-product-features">
+                <li>Moisturizes deeply</li>
+                <li>Reduces redness & irritation</li>
+                <li>Contains natural lavender extract</li>
+                <li>Perfect for sensitive skin</li>
+              </ul>
+              <p>Wake up with smooth, hydrated skin.</p>
+              <button class="custom-product-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="custom-product-card">
+          <div class="custom-product-card-inner">
+            <div class="custom-product-card-front">
+              <img src="Activated Charcoal Face Mask1.jpg" alt="Activated Charcoal Face Mask" class="custom-product-image">
+              <h5 class="custom-product-title">Activated Charcoal Face Mask</h5>
+              <p class="custom-product-price">$19.99</p>
+              <p class="custom-product-description">Deep clean and detoxify your skin with activated charcoal.</p>
+            </div>
+            <div class="custom-product-card-back">
+              <h5>Product Features:</h5>
+              <ul class="custom-product-features">
+                <li>Detoxifies and removes impurities</li>
+                <li>Helps control oil production</li>
+                <li>Reduces acne and blackheads</li>
+                <li>Suitable for all skin types</li>
+              </ul>
+              <p>This mask leaves your skin feeling fresh and clean.</p>
+              <button class="custom-product-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="custom-product-card">
+          <div class="custom-product-card-inner">
+            <div class="custom-product-card-front">
+              <img src="Coconut & Vanilla Body Scrub 1.jpg" alt="Coconut & Vanilla Body Scrub" class="custom-product-image">
+              <h5 class="custom-product-title">Coconut & Vanilla Body Scrub</h5>
+              <p class="custom-product-price">$24.99</p>
+              <p class="custom-product-description">Exfoliate and hydrate your skin with a tropical scent.</p>
+            </div>
+            <div class="custom-product-card-back">
+              <h5>Product Features:</h5>
+              <ul class="custom-product-features">
+                <li>Removes dead skin cells</li>
+                <li>Moisturizes the skin</li>
+                <li>Leaves a refreshing scent</li>
+                <li>Perfect for smooth, glowing skin</li>
+              </ul>
+              <p>This scrub is ideal for a spa-like experience at home.</p>
+              <button class="custom-product-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  
+  <!-- Stay Connected Section -->
+<section class="stay-connected-section">
+  <div class="container">
+    <div class="stay-connected-content">
+      <h2 class="section-title">Stay Connected</h2>
+      <p class="section-description">
+        Join our community and be the first to know about exclusive offers, new arrivals, and special promotions!
+      </p>
+      <div class="subscribe-form">
+        <input type="email" id="emailInput" placeholder="Enter your email address" class="email-input" required>
+        <button class="subscribe-btn" onclick="subscribe()">Subscribe</button>
+      </div>
+    </div>
+    <div class="social-media-icons">
+      <a href="https://www.facebook.com/" class="social-icon"><img src="faebook.jpg" alt="Facebook"></a>
+      <a href="https://www.instagram.com/" class="social-icon"><img src="instagram.gif" alt="Instagram"></a>
+      <a href="https://x.com/?lang=en&mx=2" class="social-icon"><img src="twitter.png" alt="Twitter"></a>
+      <a href="https://www.linkedin.com/" class="social-icon"><img src="linked-in.png" alt="LinkedIn"></a>
+    </div>
+  </div>
+</section>
+
+<!-- Pop-up Success Message -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <p>🎉 Successfully Subscribed! 🎉</p>
+    <p>Thank you for joining our community! We're excited to keep you updated.</p>
+  </div>
+</div>
+<script>
+  function subscribe() {
+  const emailInput = document.getElementById('emailInput').value;
+  if (emailInput) {
+    // Show pop-up
+    const popup = document.getElementById('popup');
+    popup.style.display = 'flex';
+
+    // Hide pop-up after 3 seconds
+    setTimeout(function() {
+      popup.style.display = 'none';
+    }, 3000);
+
+    // Reset email input
+    document.getElementById('emailInput').value = '';
+  } else {
+    alert('Please enter a valid email address!');
+  }
+}
+
+</script>
+ <!-- Custom Footer Section -->
+<footer class="custom-footer">
+  <div class="footer-container">
+    <!-- Logo and Slogan -->
+    <div class="footer-logo">
+      <img src="Green Tea & Aloe Facial Cleanser.jpg" alt="Brand Logo" class="footer-logo-img">
+      <p class="footer-slogan">Join the Movement, Stay Ahead!</p>
+    </div>
+
+    <!-- Important Links -->
+    <div class="footer-links">
+      <h3 class="footer-section-title">Quick Links</h3>
+      <ul class="footer-link-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms & Conditions</a></li>
+      </ul>
+    </div>
+
+    <!-- Our Community & Social Media -->
+    <div class="footer-community">
+      <h3 class="footer-section-title">Our Community</h3>
+      <p>Be part of a vibrant, supportive community where you can learn, share, and grow together.</p>
+      <a href="community.html" class="community-btn">Join Our Community</a>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/" class="social-icon"><img src="faebook.jpg" alt="Facebook"></a>
+        <a href="https://www.instagram.com/" class="social-icon"><img src="instagram.gif" alt="Instagram"></a>
+        <a href="https://x.com/?lang=en&mx=2" class="social-icon"><img src="twitter.png" alt="Twitter"></a>
+        <a href="https://www.linkedin.com/" class="social-icon"><img src="linked-in.png" alt="LinkedIn"></a>
+      </div>
+    </div>
+
+    <!-- Newsletter Signup -->
+    <div class="footer-newsletter">
+      <h3 class="footer-section-title">Stay Informed</h3>
+      <p>Subscribe to our newsletter for updates, offers, and news straight to your inbox.</p>
+      <div class="newsletter-form">
+        <input type="email" placeholder="Enter your email" class="email-input" id="emailInput" required>
+        <button class="newsletter-btn" id="subscribeBtn">Subscribe</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Bottom Section -->
+  <div class="footer-bottom">
+    <p>&copy; 2024 Beauty and Skincare Essentials store. All Rights Reserved.</p>
+  </div>
+
+  <!-- Popup Message -->
+  <div id="popupMessage" class="popup-message">
+    <div class="popup-content">
+      <span id="popupCloseBtn" class="popup-close-btn">&times;</span>
+      <h3>Successfully Subscribed!</h3>
+      <p>Thank you for subscribing to our newsletter. Stay tuned for the latest updates.</p>
+    </div>
+  </div>
+</footer>
+<script>
+  document.getElementById('subscribeBtn').addEventListener('click', function() {
+  var email = document.getElementById('emailInput').value;
+
+  // Validate email input (basic check)
+  if (email) {
+    // Display the popup message
+    document.getElementById('popupMessage').style.display = 'flex';
+    
+    // Hide the popup after 3 seconds
+    setTimeout(function() {
+      document.getElementById('popupMessage').style.display = 'none';
+    }, 3000);
+  } else {
+    alert('Please enter a valid email address.');
+  }
+});
+
+// Close the popup if the user clicks the close button
+document.getElementById('popupCloseBtn').addEventListener('click', function() {
+  document.getElementById('popupMessage').style.display = 'none';
+});
+
+</script>
+</body>
+</html>
